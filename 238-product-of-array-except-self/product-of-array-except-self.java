@@ -4,7 +4,7 @@ class Solution {
      int [] result = new int[nums.length]; //created a new array
      int pre = 1;
      int post = 1; //intialiysing prefix and postfix varaibles
-     Arrays.fill(result,1);
+     //  Arrays.fill(result,1);
      //for loop for left to right
      for (int i = 0; i < nums.length; i++){
         result[i] = pre;
